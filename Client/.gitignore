@@ -1,0 +1,22 @@
+/.idea
+/.vscode
+/simulator/win32/run3Simu.bat - Shortcut.lnk
+tahoma.ttf
+tahomabd.ttf
+res/Board/Default/*
+run.bat
+/CocosStudio
+/tool
+/frameworks/cocos2d-html5
+*.log
+tool_js_list.exe
+tool_js_list_config.json
+/simulator/cache
+/simulator/cache/jsb.sqlite
+*.pdb
+*.iml
+simulator/win32_3D/msvcp120.dll
+/tool_js_reloader
+/genCode.bat
+/reloader.bat
+/simulator/win32Debug

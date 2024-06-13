@@ -1,0 +1,34 @@
+
+shop_icon.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bag
+  rotate: false
+  xy: 2, 2
+  size: 127, 108
+  orig: 127, 108
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 143, 160
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+shadow_shop
+  rotate: false
+  xy: 2, 112
+  size: 139, 129
+  orig: 139, 129
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 143, 200
+  size: 107, 41
+  orig: 107, 41
+  offset: 0, 0
+  index: -1

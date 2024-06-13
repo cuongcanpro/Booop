@@ -1,0 +1,95 @@
+<Solution>
+  <PropertyGroup Name="Launching" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Dialog">
+          <Folder Name="rc">
+            <Image Name="btnClose.png" />
+            <Image Name="btnGreen.png" />
+            <Image Name="btnRed.png" />
+            <Image Name="ingame_info_popup_01.png" />
+            <Image Name="ingame_info_popup_02.png" />
+            <Image Name="ingame_info_popup_03.png" />
+            <Image Name="ingame_info_popup_04.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="PoetsenOne-Regular.ttf" />
+        </Folder>
+        <Folder Name="Launching">
+          <Folder Name="json">
+            <Project Name="LaunchingScene.csd" Type="Scene" />
+            <Project Name="LoginScene.csd" Type="Scene" />
+            <Project Name="PingPongNode.csd" Type="Node" />
+          </Folder>
+          <Folder Name="rc">
+            <Image Name="bgProgress.png" />
+            <Image Name="connect_state_bg.png" />
+            <Image Name="loading.png" />
+            <Image Name="loading_bg_01.png" />
+            <Image Name="login_apple.png" />
+            <Image Name="login_facebook.png" />
+            <Image Name="login_google.png" />
+            <Image Name="login_guest.png" />
+            <Image Name="logo.png" />
+            <Image Name="network01.png" />
+            <Image Name="network02.png" />
+            <Image Name="network03.png" />
+            <Image Name="network04.png" />
+            <Image Name="progress.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="Lobby">
+          <Folder Name="rc">
+            <Image Name="diamond.png" />
+            <Image Name="ingame_coin_icon_01.png" />
+            <Image Name="lobby_bg_01.png" />
+            <Image Name="ui_lobby_backpack_icon_01.png" />
+            <Image Name="ui_lobby_cur_bar_01.png" />
+            <Image Name="ui_lobby_friends_icon_01.png" />
+            <Image Name="ui_lobby_gaple_button_01.png" />
+            <Image Name="ui_lobby_giftcode_icon_01.png" />
+            <Image Name="ui_lobby_guide_icon_01.png" />
+            <Image Name="ui_lobby_menu_bar_01.png" />
+            <Image Name="ui_lobby_news_icon_01.png" />
+            <Image Name="ui_lobby_noti_icon_01.png" />
+            <Image Name="ui_lobby_plus_button__01.png" />
+            <Image Name="ui_lobby_qq_button_01.png" />
+            <Image Name="ui_lobby_select_table_button_01.png" />
+            <Image Name="ui_lobby_setting_icon_01.png" />
+            <Image Name="ui_lobby_shop_button_01.png" />
+            <Image Name="ui_lobby_shop_icon_01.png" />
+            <Image Name="ui_lobby_tour_button_01.png" />
+            <Image Name="ui_lobby_user_avatar_table_01.png" />
+            <Image Name="ui_lobby_user_exp_bar_01.png" />
+            <Image Name="ui_lobby_user_exp_bar_02.png" />
+            <Image Name="ui_lobby_vip_button_01.png" />
+          </Folder>
+          <Image Name="barExpBg.png" />
+          <Image Name="barExpProgress.png" />
+          <Image Name="barMenu.png" />
+          <Image Name="bg.png" />
+          <Image Name="borderGold.png" />
+          <Image Name="borderInfo.png" />
+          <Image Name="btnChannel.png" />
+          <Image Name="btnFriend.png" />
+          <Image Name="btnGiftcode.png" />
+          <Image Name="btnGuide.png" />
+          <Image Name="btnItem.png" />
+          <Image Name="btnModeGaple.png" />
+          <Image Name="btnModeQQ.png" />
+          <Image Name="btnNews.png" />
+          <Image Name="btnSetting.png" />
+          <Image Name="btnShopBg.png" />
+          <Image Name="btnShopIcon.png" />
+          <Image Name="btnTournament.png" />
+          <Image Name="btnVip.png" />
+          <Image Name="iconAdd.png" />
+          <Image Name="iconGold.png" />
+          <Image Name="iconNoti.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

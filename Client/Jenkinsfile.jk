@@ -1,0 +1,312 @@
+def ENV_IOS_VARS
+
+pipeline {
+    agent { node {label 'slave_2_lcl'}}
+    environment {
+        TELEGRAM_GROUP_ID = -4062286912
+        BRANCH_NAME = "${GIT_BRANCH.replace('origin/', '')}"
+        STR_CONFIG = "\n- Branch: *${BRANCH_NAME}* \n- Type: *${TYPE}* \n- Mode: *${MODE}* \n- Platform: *${PLATFORM}*"
+        STR_BUILD_VERSION = "\n- Build Version: *${VERSION_NAME}.${VERSION_CODE}*"
+    }
+    stages {
+        stage('Check Build Config') {
+            steps {
+                script {
+                    env.IS_BUILD_SUCCESS = 0
+
+                    wrap([$class: 'BuildUser']) {
+                        env.USER_BUILD_LOG = "Build *#${env.BUILD_NUMBER}* - *${env.BUILD_USER_ID}*";
+                    }
+                }
+                sendMessage("${env.USER_BUILD_LOG} Start ${STR_CONFIG} ${STR_BUILD_VERSION}")
+            }
+        }
+        stage('Build CDN') {
+            when {
+                allOf {
+                    anyOf {
+                        allOf {
+                            branch 'master'
+                            environment name:'MODE', value: 'Live'
+                            environment name:'PLATFORM', value: 'Android'
+                        }
+                        allOf {
+                            branch 'master'
+                            environment name:'MODE', value: 'Live'
+                            environment name:'PLATFORM', value: 'iOS'
+                        }
+                        allOf {
+                            branch 'master_ios'
+                            environment name:'MODE', value: 'Live'
+                            environment name:'PLATFORM', value: 'iOS'
+                        }
+                        environment name:'MODE', value: 'Dev'
+
+                    }
+                    environment name:'TYPE', value: 'CDN'
+                }
+            }
+            steps {
+                buildCDN()
+            }
+        }
+        stage('Build APK Portal'){
+            when {
+                allOf {
+                    anyOf {
+                        allOf {
+                            branch 'master'
+                            environment name:'MODE', value: 'Live'
+                        }
+                        allOf {
+                            branch 'apkQQ'
+                            environment name:'MODE', value: 'Live'
+                        }
+                        allOf {
+                            branch 'apkGaple'
+                            environment name:'MODE', value: 'Live'
+                        }
+                        environment name:'MODE', value: 'Dev'
+                    }
+                    environment name:'TYPE', value: 'APK_PORTAL'    
+                    environment name:'PLATFORM', value: 'Android'
+                }
+            }
+            steps {
+                buildAPK()
+            }
+        }
+        stage('Build APK Game'){
+            when {
+                allOf {
+                    environment name:'MODE', value: 'Dev'
+                    environment name:'TYPE', value: 'APK_GAME'  
+                    environment name:'PLATFORM', value: 'Android'
+                }
+            }
+            steps {
+                buildAPKGame()
+            }
+        }
+        stage('Build CDN Zip'){
+            when {
+                allOf {
+                    environment name:'MODE', value: 'Dev'
+                    environment name:'TYPE', value: 'ZIP'
+                    environment name:'PLATFORM', value: 'iOS'
+                }
+            }
+            steps {
+                buildZipCDN()
+            }
+        }
+        stage('Build IOS Portal'){
+            when {
+                allOf {
+                    anyOf {
+                        allOf {
+                            branch 'master'
+                            environment name:'MODE', value: 'Live'
+                        }
+                        environment name:'MODE', value: 'Dev'
+                    }
+                    environment name:'TYPE', value: 'IPA_PORTAL'
+                    environment name:'PLATFORM', value: 'iOS'
+                }
+            }
+            agent { node {label 'ios_slave_1'}}
+            steps {
+                buildIPAPortal();
+            }
+        }
+        stage('Build IPA Game'){
+            when {
+                allOf {
+                    environment name:'MODE', value: 'Dev'
+                    environment name:'TYPE', value: 'IPA_GAME'
+                    environment name:'PLATFORM', value: 'iOS'
+                }
+            }
+            agent { node {label 'ios_slave_1'}}
+            steps {
+                buildIPAGame();
+            }
+        }
+        stage('Notify Build Finish'){
+            steps {
+                buildFinish()
+            }
+        }
+    }
+}
+
+def buildCDN() {
+    bat 'gsnpack cdn -cf %PLATFORM%/%MODE%'
+    buildSuccess()
+}
+
+def buildAPK() {
+    def nCheck = 0;
+    if(VERSION_NAME != "")
+        nCheck++;
+    if(VERSION_CODE.isNumber())
+        nCheck++;
+
+    if(nCheck == 0) {
+        bat 'gsnpack build -p android -cf Android/%MODE%'
+
+        buildSuccess()
+    }
+    else if (nCheck == 2) {
+        bat 'gsnpack build -p android -cf Android/%MODE% --versionname ${VERSION_NAME} --versioncode ${VERSION_CODE}'
+
+        buildSuccess()
+    }
+    else {
+        sendMessage("${env.USER_BUILD_LOG} APK Portal Error: Please fill all or empty version !!!");
+
+        script {
+            env.IS_BUILD_SUCCESS = 2
+        }
+    }
+}
+
+def buildAPKGame() {
+    def nCheck = 0;
+    if(VERSION_NAME != "")
+        nCheck++;
+    if(VERSION_CODE.isNumber())
+        nCheck++;
+
+    if(nCheck == 0) {
+        bat 'gsnpack build -p android -cf Android/DevAPK'
+        buildSuccess()
+    }
+    else if (nCheck == 2) {
+        bat 'gsnpack build -p android -cf Android/DevAPK --versionname ${VERSION_NAME} --versioncode ${VERSION_CODE}'
+        buildSuccess()
+    }
+    else {
+        sendMessage("${env.USER_BUILD_LOG} APK Game Error: Please fill all or empty version !!!");
+        script {
+            env.IS_BUILD_SUCCESS = 2
+        }
+    }
+}
+
+def buildIPAGame() {
+    script {
+        def env_ios = env.ENV_IOS;
+        ENV_IOS_VARS = [];
+        env_ios.split(",").each{
+            ENV_IOS_VARS << it;
+        }
+        print ENV_IOS_VARS
+    }
+    
+    
+    def nCheck = 0;
+    if(VERSION_NAME != "")
+        nCheck++;
+    if(VERSION_CODE.isNumber())
+        nCheck++;
+
+    if(nCheck == 0) {
+        withEnv(ENV_IOS_VARS) {
+            sh 'zpsbuildios build -cf build/iOS/DevIPA --verifycode 0'
+            buildSuccess()
+        }
+    }
+    else if(nCheck == 2) {
+        withEnv(ENV_IOS_VARS) {
+            sh 'zpsbuildios build -cf build/iOS/DevIPA --versionname ${VERSION_NAME} --versioncode ${VERSION_CODE} --verifycode 0'
+            buildSuccess()
+        }
+    }
+    else {
+        sendMessage("${env.USER_BUILD_LOG} IPA Game Error: Please fill all or empty version !!!");
+        script {
+            env.IS_BUILD_SUCCESS = 2
+        }
+    }
+}
+
+def buildIPAPortal() {
+    script {
+        def env_ios = env.ENV_IOS;
+        ENV_IOS_VARS = [];
+        env_ios.split(",").each{
+            ENV_IOS_VARS << it;
+        }
+        print ENV_IOS_VARS
+    }
+    
+    def nCheck = 0;
+    if(VERSION_NAME != "")
+        nCheck++;
+    if(VERSION_CODE.isNumber())
+        nCheck++;
+
+    if(nCheck == 0) {
+        withEnv(ENV_IOS_VARS) {
+            sh 'zpsbuildios build -cf build/iOS/${MODE} --verifycode 0'
+            buildSuccess()
+        }
+    }
+    else if(nCheck == 2) {
+        withEnv(ENV_IOS_VARS) {
+            sh 'zpsbuildios build -cf build/iOS/${MODE} --versionname ${VERSION_NAME} --versioncode ${VERSION_CODE} --verifycode 0'
+            buildSuccess()
+        }
+    }
+    else {
+        sendMessage("${env.USER_BUILD_LOG} IPA Portal Error: Please fill all or empty version !!!");
+        script {
+            env.IS_BUILD_SUCCESS = 2
+        }
+    }
+}
+
+def buildZipCDN() {
+    bat 'iospack content -cf iOS/Zip'
+    buildSuccess()
+}
+
+def fetchJSVersion() {
+    script {
+        echo "Fetch JS Version"
+        def strInfo = readFile('.build-info.json').trim()
+        echo "Build Info : ${strInfo} !";
+        def jsonMap = readJSON text: strInfo
+        env.JS_VERSION = jsonMap.cdn_version
+
+        sendMessage("${env.USER_BUILD_LOG} - JSVersion: *${env.JS_VERSION}* Success !!!")
+    }
+}
+
+def buildSuccess() {
+    //sendMessage("${env.USER_BUILD_LOG} Success !!!")
+    fetchJSVersion();
+
+    script {
+        env.IS_BUILD_SUCCESS = 1
+    }
+}
+
+def buildFinish() {
+    echo "Build Finish ${env.IS_BUILD_SUCCESS}"
+    if(env.IS_BUILD_SUCCESS == "0") {
+        sendMessage("${env.USER_BUILD_LOG} Error !!!")
+    }
+}
+
+def sendMessage(msg) {
+    echo "Notify Enable - ${NOTIFY}"
+    if(NOTIFY == "true") {
+        echo "Telegram active: ${msg}"
+        telegramSend(message: msg, chatId:TELEGRAM_GROUP_ID)
+    }
+    else {
+        echo "Telegram disable: ${msg}"
+    }
+}

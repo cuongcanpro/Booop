@@ -1,0 +1,126 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": false,
+    "frameRate": 60,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "",
+    "modules": [
+        "cocos2d"
+    ],
+    "jsListOrder": [
+        "src/Engine/**/*.js",
+        "src/Lobby/**/*.js",
+        "src/Lobby/*.js",
+        "src/Game/**/*.js"
+    ],
+    "jsList": [
+        "src/App/BaseMgr.js",
+        "src/App/GameMgr.js",
+        "src/App/SceneMgr.js",
+        "src/App/Constant.js",
+        "src/App/Config.js",
+        "src/App/ViewSizeMgr.js",
+
+        "src/Engine/Language/ISO639/data.js",
+        "src/Engine/Language/ISO639/index.js",
+        "src/Engine/Language/LocalizedString.js",
+
+        "src/Engine/Base/jsb_pluginx.js",
+        "src/Engine/Base/Network.js",
+        "src/Engine/Base/PlatformWrapper.js",
+        "src/Engine/Base/Facebook.js",
+        "src/Engine/Base/Google.js",
+        "src/Engine/Base/PaymentInfo.js",
+        "src/Engine/Base/GoogleIAP.js",
+        "src/Engine/Base/AppleIAP.js",
+        "src/Engine/Base/AppleID.js",
+        "src/Engine/Base/FCM.js",
+        "src/Engine/Base/Crashlytics.js",
+        "src/Engine/Base/AvatarMgr.js",
+        "src/Engine/Base/Payment.js",
+        "src/Engine/Base/PortalState.js",
+        "src/Engine/Base/ZPTracker.js",
+        "src/Engine/Base/FirebaseAnalytics.js",
+        "src/Engine/Base/DynamicButtonMgr.js",
+
+        "src/Engine/GUI/BaseLayer.js",
+        "src/Engine/GUI/BaseScene.js",
+        "src/Engine/GUI/Paper.js",
+        "src/Engine/GUI/CoinFallEffect.js",
+        "src/Engine/GUI/EffectTouchLayer.js",
+        "src/Engine/GUI/Avatar.js",
+        "src/Engine/GUI/AvatarUI.js",
+        "src/Engine/GUI/CommonUI.js",
+        "src/Engine/GUI/Dialog.js",
+
+        "src/Engine/Utils/FunctionUtils.js",
+        "src/Engine/Utils/EventDispatcherManager.js",
+        "src/Engine/Utils/UIUtils.js",
+        "src/Engine/Utils/StringUtility.js",
+        "src/Engine/Utils/StringUtil.js",
+        "src/Engine/Utils/StorageUtil.js",
+        "src/Engine/Utils/TimeUtils.js",
+        "src/Engine/Utils/FxUtils.js",
+        "src/Engine/Utils/AssetsManager/Manifest.js",
+        "src/Engine/Utils/AssetsManager/AssetsManager.js",
+        "src/Engine/Utils/AssetsManager/AssetGroup.js",
+
+        "src/Engine/PaymentLib/libs/aes.js",
+        "src/Engine/PaymentLib/libs/crypt.js",
+        "src/Engine/PaymentLib/libs/md5.js",
+        "src/Engine/PaymentLib/libs/signals.js",
+        "src/Engine/PaymentLib/libs/underscore.js",
+        "src/Engine/PaymentLib/PaymentConfig.js",
+        "src/Engine/PaymentLib/PaymentUI.js",
+        "src/Engine/PaymentLib/PaymentLib.js",
+        "src/Engine/PaymentLib/PaymentLibUtils.js",
+
+        "src/Game/Resource.js",
+
+        "src/Module/Network/InPacket.js",
+        "src/Module/Network/OutPacket.js",
+        "src/Module/Network/PingPongMgr.js",
+        "src/Module/Network/TimeoutConnectMgr.js",
+        "src/Module/Network/RetryConnectMgr.js",
+        "src/Module/Network/GameClientListener.js",
+        "src/Module/Network/GameClient.js",
+
+        "src/Module/Portal/PortalMgr.js",
+        "src/Module/Portal/PortalPacket.js",
+
+        "src/Module/Setting/SettingMgr.js",
+
+        "src/Module/Login/LoginMgr.js",
+        "src/Module/Login/LoginPacket.js",
+        "src/Module/Login/LaunchingScene.js",
+        "src/Module/Login/LoginScene.js",
+        "src/Module/Login/TestLayer.js",
+
+        "src/Module/User/UserPacket.js",
+        "src/Module/User/UserInfo.js",
+        "src/Module/User/UserMgr.js",
+
+
+        "src/Module/Platform/PlatformMgr.js",
+
+        "src/Module/Log/LogMgr.js",
+        "src/Module/Log/JSLog.js",
+
+        "src/Module/Webview/WebViewUI.js",
+
+        "src/Game/CmdDefine.js",
+        "src/Game/GUI/BoardScene.js",
+        "src/Game/GUI/CellNode.js",
+        "src/Game/GUI/PieceNode.js",
+        "src/Game/GUI/PlayerUI.js",
+        "src/Game/GUI/Ghost.js",
+        "src/Game/Logic/ConfigGame.js",
+        "src/Game/Logic/BoardData.js",
+        "src/Game/Logic/PlayerData.js",
+        "src/Game/Logic/GameLogic.js",
+        "src/Game/InGameMgr.js",
+        "src/Game/InGamePacket.js"
+    ]
+}

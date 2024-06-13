@@ -1,0 +1,851 @@
+{
+  "ID": "fb439c94-e250-4f61-8a27-62809ff35382",
+  "Version": "2.3.4",
+  "Name": "Dialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6492,
+              "Y": 0.6681
+            },
+            "LeftMargin": 210.5,
+            "RightMargin": 210.5,
+            "TopMargin": 119.5,
+            "BottomMargin": 119.5,
+            "Tag": 12,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/ingame_info_popup_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 230,
+                "Scale9OriginY": 126,
+                "Scale9Width": 238,
+                "Scale9Height": 130,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 389.0,
+                  "Y": 181.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4994,
+                  "Y": 0.3763
+                },
+                "PreSize": {
+                  "X": 0.896,
+                  "Y": 0.8586
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 41.0,
+                "TopMargin": 93.5,
+                "BottomMargin": -25.5,
+                "Tag": 16,
+                "ActionTag": 246617931,
+                "Size": {
+                  "X": 698.0,
+                  "Y": 413.0
+                },
+                "Name": "bgImg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/ingame_info_popup_03.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 389.2,
+                  "Y": 439.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4996,
+                  "Y": 0.9127
+                },
+                "PreSize": {
+                  "X": 0.8909,
+                  "Y": 0.2308
+                },
+                "LeftMargin": 42.2,
+                "RightMargin": 42.8,
+                "TopMargin": -13.5,
+                "BottomMargin": 383.5,
+                "Tag": 14,
+                "ActionTag": -1474185160,
+                "Size": {
+                  "X": 694.0,
+                  "Y": 111.0
+                },
+                "Name": "bgImg2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/ingame_info_popup_04.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 62,
+                "Scale9OriginY": 62,
+                "Scale9Width": 66,
+                "Scale9Height": 66,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 389.5,
+                  "Y": 261.21
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5431
+                },
+                "PreSize": {
+                  "X": 0.7445,
+                  "Y": 0.5842
+                },
+                "LeftMargin": 99.5,
+                "RightMargin": 99.5,
+                "TopMargin": 79.29,
+                "BottomMargin": 120.71,
+                "Tag": 15,
+                "ActionTag": 872027810,
+                "Size": {
+                  "X": 580.0,
+                  "Y": 281.0
+                },
+                "Name": "bgImg3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 32,
+                "LabelText": "str_DIALOG_TITLE_1",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 389.5,
+                  "Y": 456.26
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 163,
+                  "G": 84,
+                  "B": 66
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9486
+                },
+                "PreSize": {
+                  "X": 0.3723,
+                  "Y": 0.079
+                },
+                "LeftMargin": 244.5,
+                "RightMargin": 244.5,
+                "TopMargin": 5.74,
+                "BottomMargin": 437.26,
+                "Tag": 152,
+                "ActionTag": 313385095,
+                "Size": {
+                  "X": 290.0,
+                  "Y": 38.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "SelectTable/rc/btnClose.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "SelectTable/rc/btnClose.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "SelectTable/rc/btnClose.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 32,
+                "Scale9Height": 53,
+                "OutlineSize": 0,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 748.6969,
+                  "Y": 354.422
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9611,
+                  "Y": 0.7368
+                },
+                "PreSize": {
+                  "X": 0.0796,
+                  "Y": 0.1559
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 717.6969,
+                "RightMargin": -0.6969,
+                "TopMargin": 89.078,
+                "BottomMargin": 316.922,
+                "Tag": 7,
+                "ActionTag": 1923246242,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 75.0
+                },
+                "Name": "btnQuit",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 219,
+                "Scale9Height": 54,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 396.511,
+                  "Y": 67.5099
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.509,
+                  "Y": 0.1404
+                },
+                "PreSize": {
+                  "X": 0.3196,
+                  "Y": 0.158
+                },
+                "LeftMargin": 272.011,
+                "RightMargin": 257.989,
+                "TopMargin": 375.4901,
+                "BottomMargin": 29.5099,
+                "Tag": 41,
+                "Children": [
+                  {
+                    "FontSize": 28,
+                    "LabelText": "str_OK",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/PoetsenOne-Regular.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 118,
+                      "B": 1
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 124.5,
+                      "Y": 38.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3735,
+                      "Y": 0.4737
+                    },
+                    "LeftMargin": 78.0,
+                    "RightMargin": 78.0,
+                    "TopMargin": 20.0,
+                    "BottomMargin": 20.0,
+                    "Tag": 155,
+                    "ActionTag": 498572164,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 38.0
+                    },
+                    "Name": "Text_4",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1010512214,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 76.0
+                },
+                "VisibleForFrame": false,
+                "Name": "btnCenter",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnRed.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnRed.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnRed.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 223,
+                "Scale9Height": 54,
+                "OutlineSize": 0,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 521.151,
+                  "Y": 67.5099
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.669,
+                  "Y": 0.1404
+                },
+                "PreSize": {
+                  "X": 0.3248,
+                  "Y": 0.158
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 394.651,
+                "RightMargin": 131.349,
+                "TopMargin": 375.4901,
+                "BottomMargin": 29.5099,
+                "Tag": 4,
+                "Children": [
+                  {
+                    "FontSize": 28,
+                    "LabelText": "xxxxxxxxxxxxxxx",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/PoetsenOne-Regular.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 131,
+                      "G": 3,
+                      "B": 28
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 126.5,
+                      "Y": 39.0758
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5142
+                    },
+                    "PreSize": {
+                      "X": 0.9605,
+                      "Y": 0.4737
+                    },
+                    "LeftMargin": 5.0,
+                    "RightMargin": 5.0,
+                    "TopMargin": 18.9242,
+                    "BottomMargin": 21.0758,
+                    "Tag": 154,
+                    "ActionTag": 1116074442,
+                    "Size": {
+                      "X": 244.0,
+                      "Y": 38.0
+                    },
+                    "Name": "lbCancel",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -6985513,
+                "Size": {
+                  "X": 253.0,
+                  "Y": 76.0
+                },
+                "Name": "btnCancel",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 219,
+                "Scale9Height": 54,
+                "OutlineSize": 0,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 271.871,
+                  "Y": 67.51
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.349,
+                  "Y": 0.1404
+                },
+                "PreSize": {
+                  "X": 0.3196,
+                  "Y": 0.158
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 147.371,
+                "RightMargin": 382.629,
+                "TopMargin": 375.49,
+                "BottomMargin": 29.51,
+                "Tag": 3,
+                "Children": [
+                  {
+                    "FontSize": 28,
+                    "LabelText": "xxxxxxxxxxxxxxxx",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/PoetsenOne-Regular.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 118,
+                      "B": 1
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 124.5,
+                      "Y": 38.5548
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5073
+                    },
+                    "PreSize": {
+                      "X": 1.0442,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": -5.5,
+                    "RightMargin": -5.5,
+                    "TopMargin": 18.4452,
+                    "BottomMargin": 19.5548,
+                    "Tag": 153,
+                    "ActionTag": -456063283,
+                    "Size": {
+                      "X": 260.0,
+                      "Y": 38.0
+                    },
+                    "Name": "lbOk",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1664205097,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 76.0
+                },
+                "Name": "btnOK",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 27,
+                "LabelText": "string string string string string string string string",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 389.5,
+                  "Y": 262.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 163,
+                  "G": 84,
+                  "B": 66
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5447
+                },
+                "PreSize": {
+                  "X": 0.6675,
+                  "Y": 0.4574
+                },
+                "LeftMargin": 129.5,
+                "RightMargin": 129.5,
+                "TopMargin": 109.0,
+                "BottomMargin": 152.0,
+                "UserData": "wrapText",
+                "Tag": 177,
+                "ActionTag": -218826193,
+                "Size": {
+                  "X": 520.0,
+                  "Y": 220.0
+                },
+                "Name": "lb_message",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1455992640,
+            "Size": {
+              "X": 779.0,
+              "Y": 481.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1200.0,
+          "Y": 720.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../fonts/PoetsenOne-Regular.ttf",
+        "../../SelectTable/rc/btnClose.png",
+        "../rc/btnGreen.png",
+        "../rc/btnRed.png",
+        "../rc/ingame_info_popup_01.png",
+        "../rc/ingame_info_popup_03.png",
+        "../rc/ingame_info_popup_04.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

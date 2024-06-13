@@ -1,0 +1,25 @@
+<Solution>
+  <PropertyGroup Name="Dialog" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Dialog">
+          <Folder Name="json">
+            <Project Name="Dialog.csd" Type="Scene" />
+          </Folder>
+          <Folder Name="rc">
+            <Image Name="btnGreen.png" />
+            <Image Name="btnRed.png" />
+            <Image Name="ingame_info_popup_01.png" />
+            <Image Name="ingame_info_popup_02.png" />
+            <Image Name="ingame_info_popup_03.png" />
+            <Image Name="ingame_info_popup_04.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="PoetsenOne-Regular.ttf" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

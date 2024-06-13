@@ -1,0 +1,2220 @@
+{
+  "ID": "06b5b54b-9c85-497a-af12-1117d36eb8ac",
+  "Version": "2.3.4",
+  "Name": "LoginScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 594,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Launching/rc/loading_bg_01.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 514,
+            "Scale9OriginY": 237,
+            "Scale9Width": 528,
+            "Scale9Height": 246,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 600.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 595,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/logo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.0,
+                  "Y": 693.8182
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5782
+                },
+                "PreSize": {
+                  "X": 0.6361,
+                  "Y": 0.2033
+                },
+                "LeftMargin": 131.0,
+                "RightMargin": 131.0,
+                "TopMargin": 384.1818,
+                "BottomMargin": 571.8182,
+                "Tag": 51,
+                "ActionTag": 1785968779,
+                "Size": {
+                  "X": 458.0,
+                  "Y": 244.0
+                },
+                "Name": "logo_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1132863788,
+            "Size": {
+              "X": 720.0,
+              "Y": 1200.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "v1.0.0.0.0",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/PoetsenOne-Regular.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 5.0,
+              "Y": 5.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 143,
+              "G": 154,
+              "B": 216
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0069,
+              "Y": 0.0042
+            },
+            "PreSize": {
+              "X": 0.2778,
+              "Y": 0.0325
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 5.0,
+            "RightMargin": 515.0,
+            "TopMargin": 1156.0,
+            "BottomMargin": 5.0,
+            "UserData": "scale",
+            "Tag": 26,
+            "ActionTag": -511011065,
+            "Size": {
+              "X": 200.0,
+              "Y": 39.0
+            },
+            "Name": "version",
+            "ctype": "TextObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 732.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.61
+            },
+            "PreSize": {
+              "X": 0.6944,
+              "Y": 0.4167
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 110.0,
+            "RightMargin": 110.0,
+            "TopMargin": 218.0,
+            "BottomMargin": 482.0,
+            "UserData": "scale",
+            "Tag": 596,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/ingame_info_popup_04.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 78,
+                "Scale9Width": 59,
+                "Scale9Height": 49,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0,
+                  "Y": 245.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.49
+                },
+                "PreSize": {
+                  "X": 1.36,
+                  "Y": 1.4
+                },
+                "LeftMargin": -90.0,
+                "RightMargin": -90.0,
+                "TopMargin": -95.0,
+                "BottomMargin": -105.0,
+                "Tag": 604,
+                "ActionTag": 1193974633,
+                "Size": {
+                  "X": 680.0,
+                  "Y": 700.0
+                },
+                "Alpha": 226,
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/logo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 259.8998,
+                  "Y": 448.3008
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5198,
+                  "Y": 0.8966
+                },
+                "PreSize": {
+                  "X": 0.916,
+                  "Y": 0.488
+                },
+                "LeftMargin": 30.8998,
+                "RightMargin": 11.1002,
+                "TopMargin": -70.3008,
+                "BottomMargin": 326.3008,
+                "Tag": 73,
+                "ActionTag": -1008718748,
+                "Size": {
+                  "X": 458.0,
+                  "Y": 244.0
+                },
+                "Name": "logo_1_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/rc/ui_lobby_cur_bar_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 13,
+                "Scale9Width": 101,
+                "Scale9Height": 15,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 251.1642,
+                  "Y": 309.7294
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5023,
+                  "Y": 0.6195
+                },
+                "PreSize": {
+                  "X": 1.36,
+                  "Y": 0.12
+                },
+                "LeftMargin": -88.8358,
+                "RightMargin": -91.1642,
+                "TopMargin": 160.2706,
+                "BottomMargin": 279.7294,
+                "Tag": 602,
+                "ActionTag": 1521654798,
+                "Size": {
+                  "X": 680.0,
+                  "Y": 60.0
+                },
+                "Alpha": 153,
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "Account ID: ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 6.3368,
+                  "Y": 311.3574
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0127,
+                  "Y": 0.6227
+                },
+                "PreSize": {
+                  "X": 0.27,
+                  "Y": 0.078
+                },
+                "LeftMargin": -61.1632,
+                "RightMargin": 426.1632,
+                "TopMargin": 169.1426,
+                "BottomMargin": 291.8574,
+                "Tag": 600,
+                "ActionTag": -520501781,
+                "Size": {
+                  "X": 135.0,
+                  "Y": 39.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "ButtonText": "Random",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "G": 190,
+                  "B": 204
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnRed.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnRed.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnRed.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 223,
+                "Scale9Height": 54,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 119.5496,
+                  "Y": -41.4274
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.2391,
+                  "Y": -0.0829
+                },
+                "PreSize": {
+                  "X": 0.506,
+                  "Y": 0.152
+                },
+                "LeftMargin": -6.9504,
+                "RightMargin": 253.9504,
+                "TopMargin": 503.4274,
+                "BottomMargin": -79.4274,
+                "Tag": 599,
+                "ActionTag": 1379289841,
+                "Size": {
+                  "X": 253.0,
+                  "Y": 76.0
+                },
+                "Name": "random_account",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 25,
+                "ButtonText": "Login",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 213,
+                  "B": 219
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 219,
+                "Scale9Height": 54,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 383.7994,
+                  "Y": -41.4274
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.7676,
+                  "Y": -0.0829
+                },
+                "PreSize": {
+                  "X": 0.498,
+                  "Y": 0.152
+                },
+                "LeftMargin": 259.2994,
+                "RightMargin": -8.2994,
+                "TopMargin": 503.4274,
+                "BottomMargin": -79.4274,
+                "Tag": 607,
+                "ActionTag": 771461333,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 76.0
+                },
+                "Name": "login_account",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "Server 138.0.0.1:10116",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 236,
+                  "G": 90,
+                  "B": 6
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 236,
+                  "G": 90,
+                  "B": 6
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.0001,
+                  "Y": 32.8069
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 238,
+                  "B": 89
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0656
+                },
+                "PreSize": {
+                  "X": 1.6,
+                  "Y": 0.124
+                },
+                "LeftMargin": -149.9999,
+                "RightMargin": -150.0001,
+                "TopMargin": 436.1931,
+                "BottomMargin": 1.8069,
+                "Tag": 603,
+                "ActionTag": -2124388250,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 62.0
+                },
+                "Name": "lServer",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "Local",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 103
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.7726,
+                  "Y": 229.2166
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 159,
+                  "B": 58
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2355,
+                  "Y": 0.4584
+                },
+                "PreSize": {
+                  "X": 0.278,
+                  "Y": 0.12
+                },
+                "LeftMargin": 48.2726,
+                "RightMargin": 312.7274,
+                "TopMargin": 240.7834,
+                "BottomMargin": 199.2166,
+                "Tag": 240,
+                "ActionTag": 649953994,
+                "Size": {
+                  "X": 139.0,
+                  "Y": 60.0
+                },
+                "Name": "server_0",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "Develop",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 103
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 261.6398,
+                  "Y": 229.2166
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 195,
+                  "B": 177
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5233,
+                  "Y": 0.4584
+                },
+                "PreSize": {
+                  "X": 0.278,
+                  "Y": 0.12
+                },
+                "LeftMargin": 192.1398,
+                "RightMargin": 168.8602,
+                "TopMargin": 240.7834,
+                "BottomMargin": 199.2166,
+                "Tag": 605,
+                "ActionTag": -910178392,
+                "Size": {
+                  "X": 139.0,
+                  "Y": 60.0
+                },
+                "Name": "server_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "Play Test",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 103
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 405.5069,
+                  "Y": 229.2166
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.811,
+                  "Y": 0.4584
+                },
+                "PreSize": {
+                  "X": 0.278,
+                  "Y": 0.12
+                },
+                "LeftMargin": 336.0069,
+                "RightMargin": 24.9931,
+                "TopMargin": 240.7834,
+                "BottomMargin": 199.2166,
+                "Tag": 606,
+                "ActionTag": -352310964,
+                "Size": {
+                  "X": 139.0,
+                  "Y": 60.0
+                },
+                "Name": "server_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "Live",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 103
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.4632,
+                  "Y": 131.9008
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2409,
+                  "Y": 0.2638
+                },
+                "PreSize": {
+                  "X": 0.278,
+                  "Y": 0.12
+                },
+                "LeftMargin": 50.9632,
+                "RightMargin": 310.0368,
+                "TopMargin": 338.0992,
+                "BottomMargin": 101.9008,
+                "Tag": 42,
+                "ActionTag": 663575461,
+                "Size": {
+                  "X": 139.0,
+                  "Y": 60.0
+                },
+                "Name": "server_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "Live",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 103
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 264.3304,
+                  "Y": 131.9008
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5287,
+                  "Y": 0.2638
+                },
+                "PreSize": {
+                  "X": 0.278,
+                  "Y": 0.12
+                },
+                "LeftMargin": 194.8304,
+                "RightMargin": 166.1696,
+                "TopMargin": 338.0992,
+                "BottomMargin": 101.9008,
+                "Tag": 43,
+                "ActionTag": 1460107689,
+                "Size": {
+                  "X": 139.0,
+                  "Y": 60.0
+                },
+                "Name": "server_4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "Live",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 103
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 408.1974,
+                  "Y": 131.9008
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8164,
+                  "Y": 0.2638
+                },
+                "PreSize": {
+                  "X": 0.278,
+                  "Y": 0.12
+                },
+                "LeftMargin": 338.6974,
+                "RightMargin": 22.3026,
+                "TopMargin": 338.0992,
+                "BottomMargin": 101.9008,
+                "Tag": 59,
+                "ActionTag": -1002027936,
+                "Size": {
+                  "X": 139.0,
+                  "Y": 60.0
+                },
+                "Name": "server_5",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "FontSize": 25,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "ID",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 85.9106,
+                  "Y": 305.7773
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 197,
+                  "G": 254
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1718,
+                  "Y": 0.6116
+                },
+                "PreSize": {
+                  "X": 0.97,
+                  "Y": 0.078
+                },
+                "LeftMargin": 85.9106,
+                "RightMargin": -70.9106,
+                "TopMargin": 174.7227,
+                "BottomMargin": 286.2773,
+                "Tag": 608,
+                "ActionTag": 464467665,
+                "Size": {
+                  "X": 485.0,
+                  "Y": 39.0
+                },
+                "Name": "lbAccount",
+                "ctype": "TextFieldObjectData"
+              }
+            ],
+            "ActionTag": 102677947,
+            "Size": {
+              "X": 500.0,
+              "Y": 500.0
+            },
+            "Name": "pDev",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 47,
+            "SingleColor": {
+              "R": 30,
+              "G": 144
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 5.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0042
+            },
+            "PreSize": {
+              "X": 1.6667,
+              "Y": 0.1217
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": -240.0,
+            "RightMargin": -240.0,
+            "TopMargin": 1049.0,
+            "BottomMargin": 5.0,
+            "UserData": "scale",
+            "Tag": 46,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_facebook.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_facebook.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_facebook.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 179,
+                "Scale9Height": 16,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 452.9379,
+                  "Y": 90.9026
+                },
+                "Scale": {
+                  "ScaleX": 1.35,
+                  "ScaleY": 1.35
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3774,
+                  "Y": 0.6226
+                },
+                "PreSize": {
+                  "X": 0.1742,
+                  "Y": 0.2603
+                },
+                "LeftMargin": 348.4379,
+                "RightMargin": 642.5621,
+                "TopMargin": 36.0974,
+                "BottomMargin": 71.9026,
+                "Tag": 54,
+                "ActionTag": 349042385,
+                "Size": {
+                  "X": 209.0,
+                  "Y": 38.0
+                },
+                "Name": "facebook",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_google.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_google.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_google.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 179,
+                "Scale9Height": 16,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 452.9379,
+                  "Y": 29.9165
+                },
+                "Scale": {
+                  "ScaleX": 1.35,
+                  "ScaleY": 1.35
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3774,
+                  "Y": 0.2049
+                },
+                "PreSize": {
+                  "X": 0.1742,
+                  "Y": 0.2603
+                },
+                "LeftMargin": 348.4379,
+                "RightMargin": 642.5621,
+                "TopMargin": 97.0835,
+                "BottomMargin": 10.9165,
+                "Tag": 55,
+                "ActionTag": 567085015,
+                "Size": {
+                  "X": 209.0,
+                  "Y": 38.0
+                },
+                "Name": "google",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_apple.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_apple.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_apple.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 179,
+                "Scale9Height": 16,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 746.6754,
+                  "Y": 90.9026
+                },
+                "Scale": {
+                  "ScaleX": 1.35,
+                  "ScaleY": 1.35
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6222,
+                  "Y": 0.6226
+                },
+                "PreSize": {
+                  "X": 0.1742,
+                  "Y": 0.2603
+                },
+                "LeftMargin": 642.1754,
+                "RightMargin": 348.8246,
+                "TopMargin": 36.0974,
+                "BottomMargin": 71.9026,
+                "Tag": 56,
+                "ActionTag": -1866531799,
+                "Size": {
+                  "X": 209.0,
+                  "Y": 38.0
+                },
+                "Name": "apple",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_guest.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_guest.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Launching/rc/login_guest.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 179,
+                "Scale9Height": 16,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 746.6754,
+                  "Y": 29.9165
+                },
+                "Scale": {
+                  "ScaleX": 1.35,
+                  "ScaleY": 1.35
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6222,
+                  "Y": 0.2049
+                },
+                "PreSize": {
+                  "X": 0.1742,
+                  "Y": 0.2603
+                },
+                "LeftMargin": 642.1754,
+                "RightMargin": 348.8246,
+                "TopMargin": 97.0835,
+                "BottomMargin": 10.9165,
+                "Tag": 57,
+                "ActionTag": -668295120,
+                "Size": {
+                  "X": 209.0,
+                  "Y": 38.0
+                },
+                "Name": "guest",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/btnSetting.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/btnSetting.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/btnSetting.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 24,
+                "Scale9Height": 33,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 924.1387,
+                  "Y": 62.9326
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7701,
+                  "Y": 0.431
+                },
+                "PreSize": {
+                  "X": 0.045,
+                  "Y": 0.3767
+                },
+                "LeftMargin": 897.1387,
+                "RightMargin": 248.8613,
+                "TopMargin": 55.5674,
+                "BottomMargin": 35.4326,
+                "Tag": 80,
+                "ActionTag": 1830244524,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 55.0
+                },
+                "Name": "socialATK",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -865762040,
+            "Size": {
+              "X": 1200.0,
+              "Y": 146.0
+            },
+            "Name": "pSocial",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 365.976,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5083,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.6667,
+              "Y": 0.1242
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": -234.024,
+            "RightMargin": -245.976,
+            "TopMargin": 1051.0,
+            "UserData": "scale",
+            "Tag": 58,
+            "Children": [
+              {
+                "FontSize": 25,
+                "ButtonText": "Login Portal",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "B": 0
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 219,
+                "Scale9Height": 54,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 586.8,
+                  "Y": 64.2418
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 205,
+                  "G": 205
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.489,
+                  "Y": 0.4312
+                },
+                "PreSize": {
+                  "X": 0.2075,
+                  "Y": 0.5101
+                },
+                "LeftMargin": 462.3,
+                "RightMargin": 488.7,
+                "TopMargin": 46.7582,
+                "BottomMargin": 26.2418,
+                "Tag": 72,
+                "ActionTag": 970964033,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 76.0
+                },
+                "Name": "loginPortal",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/btnSetting.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/btnSetting.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/btnSetting.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 24,
+                "Scale9Height": 33,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 751.3201,
+                  "Y": 59.317
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6261,
+                  "Y": 0.3981
+                },
+                "PreSize": {
+                  "X": 0.045,
+                  "Y": 0.3691
+                },
+                "LeftMargin": 724.3201,
+                "RightMargin": 421.6799,
+                "TopMargin": 62.183,
+                "BottomMargin": 31.817,
+                "Tag": 73,
+                "ActionTag": -586955607,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 55.0
+                },
+                "Name": "portalSSK",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -555951854,
+            "Size": {
+              "X": 1200.0,
+              "Y": 149.0
+            },
+            "Name": "pPortal",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 204,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 40,
+              "G": 40,
+              "B": 40
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 600.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 3.3333,
+              "Y": 1.1667
+            },
+            "LeftMargin": -840.0,
+            "RightMargin": -840.0,
+            "TopMargin": -100.0,
+            "BottomMargin": -100.0,
+            "UserData": "scale",
+            "Tag": 74,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Lobby/rc/ui_lobby_cur_bar_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 13,
+                "Scale9Width": 101,
+                "Scale9Height": 15,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.0,
+                  "Y": 656.9777
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4693
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 0.0429
+                },
+                "LeftMargin": 800.0,
+                "RightMargin": 800.0,
+                "TopMargin": 713.0223,
+                "BottomMargin": 626.9777,
+                "Tag": 75,
+                "ActionTag": 2088401798,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 60.0
+                },
+                "Alpha": 153,
+                "Name": "Image_3_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "Access Token:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 925.0931,
+                  "Y": 658.6094
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3855,
+                  "Y": 0.4704
+                },
+                "PreSize": {
+                  "X": 0.0833,
+                  "Y": 0.0279
+                },
+                "LeftMargin": 825.0931,
+                "RightMargin": 1374.907,
+                "TopMargin": 721.8906,
+                "BottomMargin": 639.1094,
+                "Tag": 76,
+                "ActionTag": -1070904150,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 39.0
+                },
+                "Name": "Text_2_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "FontSize": 25,
+                "IsCustomSize": true,
+                "LabelText": "123",
+                "PlaceHolderText": "Access Token Here",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1020.0076,
+                  "Y": 661.2983
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.425,
+                  "Y": 0.4724
+                },
+                "PreSize": {
+                  "X": 0.2304,
+                  "Y": 0.0279
+                },
+                "LeftMargin": 1020.0076,
+                "RightMargin": 826.9924,
+                "TopMargin": 719.2017,
+                "BottomMargin": 641.7983,
+                "Tag": 77,
+                "ActionTag": 1007765664,
+                "Size": {
+                  "X": 553.0,
+                  "Y": 39.0
+                },
+                "Name": "lbATK",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 39,
+                "LabelText": "Win32 not support login social !!!\nPlease insert access token to fake login",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 3,
+                "OutlineColor": {
+                  "R": 49,
+                  "G": 102,
+                  "B": 138
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 49,
+                  "G": 102,
+                  "B": 138
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.0,
+                  "Y": 759.3513
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5424
+                },
+                "PreSize": {
+                  "X": 0.2992,
+                  "Y": 0.0757
+                },
+                "LeftMargin": 841.0,
+                "RightMargin": 841.0,
+                "TopMargin": 587.6487,
+                "BottomMargin": 706.3513,
+                "Tag": 78,
+                "ActionTag": 885685708,
+                "Size": {
+                  "X": 718.0,
+                  "Y": 106.0
+                },
+                "Name": "Text_2_0_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "ButtonText": "Login Social",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/PoetsenOne-Regular.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 211,
+                  "B": 208
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Dialog/rc/btnGreen.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 219,
+                "Scale9Height": 54,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.0,
+                  "Y": 578.2087
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.413
+                },
+                "PreSize": {
+                  "X": 0.1037,
+                  "Y": 0.0543
+                },
+                "LeftMargin": 1075.5,
+                "RightMargin": 1075.5,
+                "TopMargin": 783.7913,
+                "BottomMargin": 540.2087,
+                "Tag": 79,
+                "ActionTag": 459536254,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 76.0
+                },
+                "Name": "btnATK",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1982968626,
+            "Size": {
+              "X": 2400.0,
+              "Y": 1400.0
+            },
+            "Name": "pATK",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1200.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Default/Button_Normal.png",
+        "../../Default/Button_Press.png",
+        "../../Dialog/rc/btnGreen.png",
+        "../../Dialog/rc/btnRed.png",
+        "../../Dialog/rc/ingame_info_popup_04.png",
+        "../../fonts/PoetsenOne-Regular.ttf",
+        "../../Lobby/btnSetting.png",
+        "../../Lobby/rc/ui_lobby_cur_bar_01.png",
+        "../rc/loading_bg_01.png",
+        "../rc/login_apple.png",
+        "../rc/login_facebook.png",
+        "../rc/login_google.png",
+        "../rc/login_guest.png",
+        "../rc/logo.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

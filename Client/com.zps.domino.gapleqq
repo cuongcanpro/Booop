@@ -1,0 +1,22 @@
+{
+    "package_name":"com.zps.domino.gapleqq",
+    "license_key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJu7Yklj4WF4CbpEcau0iIZHBrrEmI7d4aT6Md3UStL2Znsw1qXQJ9TFCin7NYrnF1tipOrYHjm67hz5xdbtKeJoR6abxKq2QLR85WKKzgl9c9s/w018UL7g/LHdDbKbO34txEPmCkNst5qCzM3SijuqOjor0NJwrsj1gittzwJCK94lUAbEIjx83FObiwH+ICI0bzhE+zXrWST8pERZndYgM3hYRFlbaXg3dMjSye1Pk3Jm5yXwrtu7vN9FI6ghTCPubyAoARnRDdTvAQ0iWODmVeWY3Cpz8YyB4BVG916KyL12rVRU4tGGUm8csg7COKdvfLsrvrNhpsZbydF3vQIDAQAB",
+    "packages":{
+        "10A":"pack_4",
+        "20A":"pack_5",
+        "50A":"pack_6",
+        "100A":"pack_7",
+        "5A":"pack_3",
+        "2A":"pack_2",
+        "1A":"pack_1",
+        "10B":"pack_14",
+        "20B":"pack_15",
+        "50B":"pack_16",
+        "100B":"pack_17",
+        "5B":"pack_13",
+        "2B":"pack_12",
+        "1B":"pack_11",
+        "2C":"pack_22",
+        "1C":"pack_21"
+    }
+}
