@@ -321,7 +321,7 @@ let BoardScene = BaseLayer.extend({
                 cc.delayTime(2.0),
                 cc.callFunc(
                     () => {
-                        Dialog.showOkDialogWithAction("Player " + gameLogic.playerWin + " Win", this, function () {
+                        Dialog.showOkDialogWithAction("Player " + gameLogic.chairWin + " Win", this, function () {
                             this.newGame();
                         });
                     }

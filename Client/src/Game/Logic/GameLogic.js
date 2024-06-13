@@ -146,7 +146,7 @@ const GameLogic = cc.Class.extend( {
     resultGame: function (cmd) {
         cc.log("CmdReceivedResult:: " + JSON.stringify(cmd));
         this.chairWin = this.convertToClientChair(cmd.chair);
-        // this.boardScene.endGame(listCell);
+        this.boardScene.endGame(cmd.listWin);
     },
 
     setListAutoMoveCell: function (row, column, pieceData) {

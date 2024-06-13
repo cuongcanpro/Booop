@@ -187,7 +187,17 @@ const CmdReceivedResult = CmdReceivedCommon.extend({
     readData: function () {
         this.chair = this.getInt();
         this.uId = this.getInt();
-        this.isWin
+        this.is8Piece = this.getBool();
+        this.isWinBig = this.getBool();
+        if (this.isWinBig) {
+            this.listWin = [];
+            let size = this.getInt();
+            for (let i = 0; i < size; i++) {
+                let row = this.getInt();
+                let column = this.getInt();
+                this.listWin[i] = new ConvertCell(row, column, PieceData.Type.NONE);
+            }
+        }
     }
 })
 
